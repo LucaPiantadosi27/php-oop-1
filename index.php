@@ -33,3 +33,7 @@ function __construct($title,$year,$genere)
 }
 
 }
+
+$pulpFiction = new Movie('Pulp Fiction', 1994, 'Thriller-pulp ');
+
+var_dump($pulpFiction);
