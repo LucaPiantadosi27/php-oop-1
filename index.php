@@ -9,3 +9,27 @@
 - vengono istanziati almeno due oggetti ‘Movie’ e stampati a schermo i valori delle relative proprietà 
 -->
 
+
+<?php
+
+class Movie
+{
+
+   // istanze
+   public $title;
+   public $year;
+   public $genere;
+   public $regista;
+   
+
+//costruttore
+
+function __construct($title,$year,$genere)
+
+{
+   $this->title = $title;
+   $this->year = $year;
+   $this->genere = $genere;
+}
+
+}
