@@ -72,17 +72,17 @@ $movie4 = new Movie('Natale in India', 2003, 'commedia',3.6);
 
 
 <body>
-   
-   <div class="title">
+
+   <div class="title text-center text-primary">
       <h1>Movies</h1>
    </div>
 
-   <div class="container mt-5 bg-body-secondary rounded-2 p-5">
+   <div class="container mt-5 bg-body-secondary rounded-2 p-5  ">
 
     
       <!--Stampo a schermo i valori delle relative proprietà e se il film è consigliato o meno-->
 
-      <div class="card mb-3 p-2 ">
+      <div class="card mb-3 p-2 text-primary border-primary bg-dark">
 
          <?php
          echo "<h2>Film 1:</h2>";
@@ -96,7 +96,7 @@ $movie4 = new Movie('Natale in India', 2003, 'commedia',3.6);
          
       </div>
 
-      <div class="card mb-3 p-2">
+      <div class="card mb-3 text-primary p-2 border-primary bg-dark">
          <?php
          echo "<h2>Film 2:</h2>";
          echo "Titolo: " . $movie2->title . "<br>";
@@ -108,7 +108,7 @@ $movie4 = new Movie('Natale in India', 2003, 'commedia',3.6);
          
       </div>
 
-      <div class="card mb-3 p-2">
+      <div class="card mb-3 p-2 text-primary border-primary bg-dark">
          <?php
          echo "<h2>Film 3:</h2>";
          echo "Titolo: " . $movie3->title . "<br>";
@@ -120,7 +120,7 @@ $movie4 = new Movie('Natale in India', 2003, 'commedia',3.6);
          
       </div>
 
-      <div class="card mb-3 p-2">
+      <div class="card mb-3 p-2 text-primary border-primary bg-dark ">
          <?php
          echo "<h2>Film 4:</h2>";
          echo "Titolo: " . $movie4->title . "<br>";
